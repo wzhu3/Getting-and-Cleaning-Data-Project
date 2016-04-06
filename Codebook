@@ -1,11 +1,11 @@
-#Getting and Cleaning Data Course Project Code Book
+Getting and Cleaning Data Course Project Code Book
 
-### Feature Included in the Original Datasets
-The features selected for the oringinal database come from the accelerometer and gyroscope 3-axial raw signals recorded by smartphones.  The original datasets included features recorded in a time series in 30 subjects performing 6 different activities. The original datasets included 561 measurements.  
+Feature Included in the Original Datasets
+The features selected for the oringinal database come from data collected from the accelerometers from the Samsung Galaxy S smartphone. The original datasets included features recorded in a time series in 30 subjects performing 6 different activities. The original datasets included 561 measurements.  
 
-### Features Selected for the Current Project
-Only measurements on the mean and standard deviation for each measurement were extracted for this project.  These means and standard deviation of the original measurements were further avearged for each subject and activity.
-These features include:
+Features Selected for the Current Project
+Only measurements on the mean and standard deviation for each measurement were extracted for this project.  These means and standard deviation of the original measurements were further avearged for each subject and activity.  A tidy data set, tidydata.txt is generated.  
+The features in tidydata.txt include:
  [1] "subject"                               
  [2] "activity"                              
  [3] "timeBodyAccelerometerMeanX"            
