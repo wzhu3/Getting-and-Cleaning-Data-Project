@@ -1,10 +1,10 @@
 # Getting-and-Cleaning-Data-Project
 
 ## Original Datasets
-The features selected for this database is a recording of six different activity movements by smartphones of 30 subjects from [this site.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  The datasets are available [here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The features selected for this database is a recording of six different activity movements by smartphones of 30 subjects from [this site.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  The original datasets were randomly divided into training and test groups.  The datasets are available [here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ## Tasks Performed
-The R script, run_analysis.R, performs the following tasks:
+The R script, run_analysis.R, performs the following tasks for the Coursera/Getting and Cleaning Data project:
 ######1.	Download and unzip the dataset if it does not already exist in the working directory.
 ######2.	Loads the activity, subject, and feature files.
 ######3.	Merges the original training and the test sets to create one data set.
